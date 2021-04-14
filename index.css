@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'din-b';
+    font-style: normal;
+    font-weight: 700;
+    src: url('font/DIN2014Narrow-Bold.eot.eot');
+    src: local('open sans extralight'), local('open-sans-extralight'), url('font/DIN2014Narrow-Bold.eot?#iefix') format('embedded-opentype'), url('font/DIN2014Narrow-Bold.woff2') format('woff2'), url('font/DIN2014Narrow-Bold.woff') format('woff'), url('font/DIN2014Narrow-Bold.ttf') format('truetype'), url('font/DIN2014Narrow-Bold.svg#Barlow') format('svg'), url('font/DIN2014Narrow-Bold.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'din-r';
+    font-style: normal;
+    font-weight: 400;
+    src: url('font/DIN2014Narrow-Regular.eot');
+    src: local('open sans extralight'), local('open-sans-extralight'), url('font/DIN2014Narrow-Regular.eot?#iefix') format('embedded-opentype'), url('font/DIN2014Narrow-Regular.woff2') format('woff2'), url('font/DIN2014Narrow-Regular.woff') format('woff'), url('font/DIN2014Narrow-Regular.ttf') format('truetype'), url('font/DIN2014Narrow-Regular.svg#Barlow') format('svg'), url('font/DIN2014Narrow-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'din-l';
+    font-style: normal;
+    font-weight: 300;
+    src: url('font/DIN2014Narrow-Light.eot');
+    src: local('open sans extralight'), local('open-sans-extralight'), url('font/DIN2014Narrow-Light.eot?#iefix') format('embedded-opentype'), url('font/DIN2014Narrow-Light.woff2') format('woff2'), url('font/DIN2014Narrow-Light.woff') format('woff'), url('font/DIN2014Narrow-Light.ttf') format('truetype'), url('font/DIN2014Narrow-Light.svg#Barlow') format('svg'), url('font/DIN2014Narrow-Light.otf') format('otf');
+}
+
+:root {
+    --color_1: #006600;
+    --color_2: #001600;
+    --color_3: #000800;
+    --color_back: black;
+    --font: 'Rubik', sans-serif
+}
+
+body {
+    margin: 10px;
+    padding: 0;
+    background-color: #fff;
+    color: #515151;
+    font-size: 40px;
+}
+
+.din-b {
+    font-family: 'din-b';
+}
+
+.din-r {
+    font-family: 'din-r';
+}
+
+.din-l {
+    font-family: 'din-l';
+}
